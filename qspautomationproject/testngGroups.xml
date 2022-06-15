@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <groups>
+      <define name="actitimeTesting">
+                   <include name="functional">    </include>
+                   <include name="integration">   </include>
+                   <include name="smoke">         </include>
+      </define>
+
+      <run>
+                       <include name="functional">  </include>
+                  <exclude name="integration">      </exclude>
+                       <include name="smoke">       </include>
+      </run>
+   </groups>
+
+
+    <classes>
+      <class name="TestFlags.Groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

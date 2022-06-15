@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-13T09:10:13 IST" name="Suite" finished-at="2022-06-13T09:10:53 IST" duration-ms="40114">
+    <groups>
+    </groups>
+    <test started-at="2022-06-13T09:10:13 IST" name="fireFox" finished-at="2022-06-13T09:10:46 IST" duration-ms="32461">
+      <class name="TestFlags.ActitimeLogin">
+        <test-method signature="f(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestFlags.ActitimeLogin@67c33749]" started-at="2022-06-13T09:10:13 IST" name="f" finished-at="2022-06-13T09:10:46 IST" duration-ms="32399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fireFox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do;jsessionid=108n8dxpubw2u]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestFlags.ActitimeLogin -->
+    </test> <!-- fireFox -->
+    <test started-at="2022-06-13T09:10:13 IST" name="chrome" finished-at="2022-06-13T09:10:47 IST" duration-ms="33865">
+      <class name="TestFlags.ActitimeLogin">
+        <test-method signature="f(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestFlags.ActitimeLogin@747edf66]" started-at="2022-06-13T09:10:13 IST" name="f" finished-at="2022-06-13T09:10:47 IST" duration-ms="33810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do;jsessionid=108n8dxpubw2u]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestFlags.ActitimeLogin -->
+    </test> <!-- chrome -->
+    <test started-at="2022-06-13T09:10:13 IST" name="edge" finished-at="2022-06-13T09:10:53 IST" duration-ms="40113">
+      <class name="TestFlags.ActitimeLogin">
+        <test-method signature="f(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestFlags.ActitimeLogin@2a54a73f]" started-at="2022-06-13T09:10:13 IST" name="f" finished-at="2022-06-13T09:10:53 IST" duration-ms="40059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do;jsessionid=108n8dxpubw2u]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- TestFlags.ActitimeLogin -->
+    </test> <!-- edge -->
+  </suite> <!-- Suite -->
+</testng-results>
